@@ -1,0 +1,25 @@
+{
+  "name": "@advtr/eventing",
+  "version": "0.0.1-beta.1",
+  "description": "Private package to wrap amqplib",
+  "main": "./dist/index.js",
+  "scripts": {
+    "lint": "ts-standard ./lib --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amqplib"
+  ],
+  "author": "Harry Wright <haroldtomwright@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@harrytwright/logger": "^3.0.0-beta.4",
+    "@types/node": "^17.0.9",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "tslib": "^2.3.1"
+  }
+}
